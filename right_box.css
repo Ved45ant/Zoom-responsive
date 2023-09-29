@@ -1,0 +1,223 @@
+#participant {
+    display: flex;
+    background-color: #1c1f2e;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    width:100%;
+    height:fit-content;
+}
+#switch__par__view {
+
+
+    background-color:#232635;
+    width:80%;
+    height: fit-content;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 2%;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+#switch__par__view button {
+    display: inline;
+    text-align: center;
+    align-items: center;
+    background-color: inherit;
+    background: inherit;
+    border-radius: 8px;
+    border:0;
+    color: #ceced2;
+    font-size: 80%;
+    font-weight: 540;
+
+    padding: 4%;
+}
+
+.btn--active{
+    background-color: #2e323e!important;
+    height:85% !important;
+    background: none;
+    border:1px solid #363a46 !important;
+    margin: 0;
+    padding: 2%;
+}
+#par_list {
+
+    background-color: #1c1f2e;
+    width: 87%;
+    height:fit-content;
+    display:flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0;
+
+    border: 0 solid #363a46;
+    border-top-width:thin;
+}
+
+.par__name{
+    width:100%;
+    height:25%;
+    background-color:  #1c1f2e;
+    color: #85878e;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.partici__per{
+    background-color: inherit;
+    text-align: center;
+    height:50%;
+    width:fit-content;
+}
+.profile__img{
+    width:  20%;
+    display: flex;
+    height:70%;
+    justify-self: center;
+    border-radius:10%;
+    -webkit-border-radius:10%;
+    -moz-border-radius:10%;
+    -ms-border-radius:10%;
+    -o-border-radius:10%;
+}
+
+.microphone{
+    background-color: inherit;
+    height:40%;
+    width: 10%;
+}
+
+/* Chat */
+
+#chat{
+    width: 100%;
+    height:fit-content;
+
+    background:inherit;
+}
+
+#chat__heading{
+    background-color: #212432;
+    color:#d6d7da;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    text-indent: 20%;
+    width:100%;
+}
+
+.chat__icon{
+    width:8%;
+    height:13%;
+    background-color: inherit;
+    padding:1%;
+}
+#arrow--up{
+    width:6%;
+    height:8%;
+    background-color: inherit;
+    padding: 2%;
+    margin-left:auto ;
+}
+
+#chat--messages{
+    background-color:inherit;
+    width: inherit;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.chat--person{
+    display: flex;
+    background-color: inherit;
+    height:20%;
+    width:100%;
+
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:self-start;
+    margin: 0;
+    margin-top:2%;
+}
+
+
+
+.chat--title{
+    background-color: inherit;
+    color:#676873;
+    width:100%;
+    height: fit-content;
+
+    font-size: small;
+}
+
+.time--chat{
+    background-color: inherit;
+    width: fit-content;
+    translate:0 10%;
+}
+
+.chat--profile{
+    width:10%;
+    height:80%;
+    border-radius: 4%;
+    -webkit-border-radius: 4%;
+    -moz-border-radius: 4%;
+    -ms-border-radius: 4%;
+    -o-border-radius: 4%;
+}
+
+.message-content{
+    display: flex;
+    background-color: inherit;
+    width:inherit;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+
+    font:700;
+}
+
+.message{
+    background-color: #232634;
+    color: #7b7c84;
+    font-size: small;
+    border-radius: 70%;
+    -moz-border-radius: 0%;
+    width:max-content;
+    height: max-content;
+    padding: 3%;
+    -webkit-border-radius: 40%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+}
+.sec--message{
+    background-color: #232634;
+    color: #7b7c84;
+    font-size: small;
+    border-radius: 70%;
+    -moz-border-radius: 0%;
+    width:max-content;
+    height: max-content;
+    padding: 3%;
+    -webkit-border-radius: 40%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+
+    margin: 0;
+    margin-top: 2%;
+    margin-left: 16%;
+}

@@ -1,0 +1,89 @@
+#bottom__options__chat {
+    grid-area: 10/2/11/-1;
+    display: inline-flex;
+    justify-content: end;
+    align-items: center;
+
+    background-color: #1c1f2e;
+    background: #1c1f2e;
+
+    position: relative;
+    margin: 0;
+    border: 0;
+    border-top: 1px;
+    border-style: solid;
+    border-top-color: #252836;
+}
+
+
+#message__area {
+    background-color: #1c1f2e;
+    width: 24.92%;
+}
+
+#options {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1c1f2e;
+    width: 75.08%;
+}
+
+.bottom-options-individual {
+    width: 6%;
+    height: fit-content;
+    background-color: #242736;
+    display: flex;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #242736;
+}
+.arrow--up{
+    width:25%;
+    background-color: transparent;
+    height:fit-content;
+}
+.bottom-options-individual img {
+    background-color: transparent;
+    margin: 0;
+}
+
+.end--meeting--button{
+    width:15%;
+    height: 57%;
+    background-color:red;
+    color: white;
+    border-top-right-radius: 17%;
+    border-top-left-radius: 17%;
+    border-bottom-left-radius: 17%;
+    border-bottom-right-radius: 17%;
+}
+.bottom-options--message{
+    width: 5%;
+    height: 40%;
+    background-color:#0e78f9;
+    display: inline-flex;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+.bottom-options--message img{
+    background-color: transparent;
+    margin: auto;
+    padding: 5%;
+    height:70%;
+}
